@@ -1,4 +1,4 @@
-package PatternDecorator.boisson;
+package PatternDecorator.Boisson.boisson;
 
 public abstract class Boisson {
     String description;

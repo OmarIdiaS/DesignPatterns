@@ -1,6 +1,6 @@
-package PatternDecorator.decorateurs;
+package PatternDecorator.Boisson.decorateurs;
 
-import PatternDecorator.boisson.Boisson;
+import PatternDecorator.Boisson.boisson.Boisson;
 
 public abstract class DecoratorIngredient extends Boisson {
     protected Boisson boisson; // Composition

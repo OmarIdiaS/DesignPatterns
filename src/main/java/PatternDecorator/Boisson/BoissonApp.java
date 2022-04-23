@@ -1,9 +1,9 @@
-package PatternDecorator;
+package PatternDecorator.Boisson;
 
-import PatternDecorator.boisson.Boisson;
-import PatternDecorator.boisson.Mocka;
-import PatternDecorator.decorateurs.Chocolat;
-import PatternDecorator.decorateurs.Lait;
+import PatternDecorator.Boisson.boisson.Boisson;
+import PatternDecorator.Boisson.boisson.Mocka;
+import PatternDecorator.Boisson.decorateurs.Chocolat;
+import PatternDecorator.Boisson.decorateurs.Lait;
 
 public class BoissonApp {
     public static void main(String[] args) {
