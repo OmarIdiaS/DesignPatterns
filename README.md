@@ -70,3 +70,15 @@ Il fournit une altérnative souple à la dérivation, pour étendre les fonction
 - Imaginez que vous arrivez le jour de votre présentation de thèse, 
 et vous trouvez que le projecteur (Client) n'as qu'un port vga (OldImplementation), 
 alors que votre ordinateur il as de l'usb-c comme port, donc vous aurez besoin d'utiliser un Adaptateur (Adapter) afin de valider votre matière :) . 
+
+## DP - Template Method
+    Catégorie: Comportement
+#####
+    Objectif du pattern:
+- Définir la squelette d'un algorithme en délégant certaines étapes à des sous-classes.
+#####
+    Résultat: 
+- Le DP permet d'isoler les parties variables d'un algorithmes.
+#####
+    Raison d'utilisation:
+- Une classe possède un fonctionnement global, mais les détails de son algorithmes doivent être spécifiques à des sous-classes.
