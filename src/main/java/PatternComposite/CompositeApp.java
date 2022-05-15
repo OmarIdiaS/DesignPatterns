@@ -22,10 +22,15 @@ public class CompositeApp {
 
 
         f3.addComponent(new File("Observer Documentation"));
-        f3.addComponent(new File("Strategy Documentation"));
 
+        File strategyDocumentation = new File("Strategy Documentation");
+        f3.addComponent(strategyDocumentation);
 
         root.view();
+
+        System.out.println("#######################");
+        strategyDocumentation.getParent();
+        System.out.println("#######################");
 
     }
 }

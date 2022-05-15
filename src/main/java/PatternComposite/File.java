@@ -9,6 +9,6 @@ public class File extends Component {
     @Override
     public void view(){
         String tab = tabulationLevel();
-        System.out.println( tab + "File : " + name );
+        System.out.println( tab + " - File : " + name );
    }
 }

@@ -12,6 +12,7 @@ public class Folder extends Component {
 
     public Component addComponent(Component component){
         component.level = level + 1;
+        component.parent = this;
         components.add(component);
         return component;
     }
@@ -26,7 +27,7 @@ public class Folder extends Component {
 
     public void view(){
         String tab = tabulationLevel();
-        System.out.println(tab + "Folder : " + name);
+        System.out.println(tab + " > Folder : " + name);
         components
                 .stream()
                 .forEach(e -> e.view());
