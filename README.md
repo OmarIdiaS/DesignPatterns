@@ -52,3 +52,21 @@ Il fournit une altérnative souple à la dérivation, pour étendre les fonction
     Exemples:
 - Un dossier peut contenir des fichiers ou des dossiers.
 - Une forme peut être soit un rectangle, un cercle, une ligne ou un groupe de formes.
+
+
+## DP - Adapter
+    Catégorie: Structure
+#####
+    Objectif:
+- Convertir l'interface d'une classe dans une autre interface comprise par la partie cliente.
+- Permettre à des classes de fonctionner ensemble, ce qui n'auraient pas été possibles à cause de leurs interfaces incompatibles.
+#####
+    Résultat:
+- Le Design pattern permet d'isoler l'adaptation d'un sous-système.
+#####
+    /!\ Ce pettern peut être utiliser soit par héritage (non recomandé) soit par composition.
+#####
+    Exemple:
+- Imaginez que vous arrivez le jour de votre présentation de thèse, 
+et vous trouvez que le projecteur (Client) n'as qu'un port vga (OldImplementation), 
+alors que votre ordinateur il as de l'usb-c comme port, donc vous aurez besoin d'utiliser un Adaptateur (Adapter) afin de valider votre matière :) . 
