@@ -64,6 +64,8 @@ Il fournit une altérnative souple à la dérivation, pour étendre les fonction
     Résultat:
 - Le Design pattern permet d'isoler l'adaptation d'un sous-système.
 #####
+    /!\ Ce pettern peut être utiliser soit par héritage (non recomandé) soit par composition.
+#####
     Exemple:
 - Imaginez que vous arrivez le jour de votre présentation de thèse, 
 et vous trouvez que le projecteur (Client) n'as qu'un port vga (OldImplementation), 
