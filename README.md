@@ -82,3 +82,17 @@ alors que votre ordinateur il as de l'usb-c comme port, donc vous aurez besoin d
 #####
     Raison d'utilisation:
 - Une classe possède un fonctionnement global, mais les détails de son algorithmes doivent être spécifiques à des sous-classes.
+
+
+## DP - Facade
+    Catégorie: Structure
+#####
+    Objectif du pattern:
+- Fournir une interface simplifiée pour l'utilisation d'un sous-système complexe, en cachant ses détails et sa complexité.
+#####
+    Résultat:
+- Le DP permet aux clients d'intéragir avec un sous-système sans avoir à comprendre les interactions complexes entre les différentes parties du sous-système.
+#####
+    Exemple:
+- Une application qui envoie par mail des rapports quotidiens sur la vente des produits d'une entreprise X (non pas celle qui vient de changer de logo ;), pour celà on vas utiliser une librarie professionnelle de conversion du texte. Mais on aura besoin d'utiliser une seule méthode pour la conversion en PDF (convert_to_PDF(fichier) par exemple).
+Donc on vas bien choisir le DP Facade pour accomplir cette tâche.
